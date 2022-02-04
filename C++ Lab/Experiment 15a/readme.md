@@ -1,15 +1,20 @@
-# Experiment 10 
-## Aim of Experiment
-#### Write a C++ program to allocate memory using new operator.
-### Step by Step Procedure of the Experiment
-Step 1 - Include the required header files (iostream and stdio.h)
+Experiment 15(a)
+Aim : Write a C++ program to overload unary operator.
+Step by Step procedure for the experiment
+Step 1 - Include the required header files (iostream).
 
-Step 2 - Create a pointer variable(ptr) inside the main method
+Step 2 - Create a class (Test) with num as private class member. Print() as member function.
 
-Step 3 - Allocate memory to pointer variable using new operator.
+Step 3 - Define the operator function as void operator ++() inside the class.
 
-Step 4 - Initialize 'ptr' to 100.
+Step 4 - Write respective code for member function Print().
 
-Step 5 - Print the Number of bytes of pointer variable and value of pointer variable.
+Step 5 - Create a main method().
 
-Step 6 - returnn 0 to exit from the program execution.
+Step 6 - Create an object named (tt) inside the main method.
+
+Step 7 - Call the operator function.
+
+Step 8 - Call the member function Print.
+
+Step 9 - return 0 to exit form the program execution.
